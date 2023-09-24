@@ -1,11 +1,14 @@
 import React from 'react';
 
+import './Banner.css';
+
 const Banner = () => {
     return (
-        <div className='bg-blue-300 h-[480px] flex items-center justify-center'>
-            <div className=''>
+        <div className='h-[480px] flex items-center justify-center relative'>
+            <img className='absolute h-full w-full object-fill opacity-10' src="https://img.freepik.com/free-photo/people-meeting-community-center_23-2149155300.jpg?size=626&ext=jpg" alt="" />
+            <div className='z-10'>
             <div>
-                <h1 className='text-4xl font-bold'>I Grow By Helping People In Need</h1>
+                <h1 className='text-4xl font-bold'>My Growth Is Fueled By Assisting Those In Need</h1>
             </div>
             <div>
              <div className='text-center mt-10' >
