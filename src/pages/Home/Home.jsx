@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from '../../components/Banner/Banner';
+import Card from '../../components/Card/Card';
 
 const Home = () => {
     return (
@@ -7,6 +8,8 @@ const Home = () => {
             {/* This is Home original page */}
 
            <Banner />
+
+           <Card />
 
         </div>
     );

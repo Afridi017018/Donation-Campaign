@@ -8,7 +8,7 @@ const Banner = () => {
             <img className='absolute h-full w-full object-fill opacity-10' src="https://img.freepik.com/free-photo/people-meeting-community-center_23-2149155300.jpg?size=626&ext=jpg" alt="" />
             <div className='z-10'>
             <div>
-                <h1 className='text-4xl font-bold'>My Growth Is Fueled By Assisting Those In Need</h1>
+                <h1 className='text-4xl font-bold text-center'>My Growth Is Fueled By Assisting Those In Need</h1>
             </div>
             <div>
              <div className='text-center mt-10' >
