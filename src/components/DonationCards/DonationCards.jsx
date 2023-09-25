@@ -29,13 +29,13 @@ const DonationCards = () => {
     return (
         <>
             <div className='mt-10 mb-20'>
-                <div className='grid grid-cols-2 gap-5'>
+                <div className='grid grid-cols-1 px-5 lg:px-0 lg:grid-cols-2 gap-5'>
 
                     {
                         (cartInfo.length > 0 && isSlice) &&
 
                         cartInfo.slice(0, 4).map((element, i) => (
-                            <DonationCard key={i + 1} element={element} />
+                            <DonationCard key={i + 1} element={element} id={getDonateInfo[i].id} />
                         ))
 
 
@@ -45,7 +45,7 @@ const DonationCards = () => {
                         (cartInfo.length > 0 && !isSlice) &&
 
                         cartInfo.map((element, i) => (
-                            <DonationCard key={i + 1} element={element} />
+                            <DonationCard key={i + 1} element={element} id={getDonateInfo[i].id} />
                         ))
 
 

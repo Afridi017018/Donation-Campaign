@@ -10,6 +10,7 @@ import {
 import Home from './pages/Home/Home.jsx';
 import Donate from './pages/Donate/Donate.jsx';
 import Donation from './pages/Donation/Donation.jsx';
+import Statistics from './pages/Statistics/Statistics.jsx';
 
 
 const router = createBrowserRouter([
@@ -31,6 +32,11 @@ const router = createBrowserRouter([
         path: "/donation",
         loader: ()=> fetch('/fakeData.json'),
         element: <Donation />,
+      },
+      {
+        path: "/statistics",
+        // loader: ()=> fetch('/fakeData.json'),
+        element: <Statistics />,
       },
 
     ],
