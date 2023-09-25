@@ -36,15 +36,6 @@
       "description": "Help keep vulnerable individuals warm during the harsh winter months by providing warm clothing items. Your generosity can bring comfort and hope to those in need. The winter season can be harsh, especially for vulnerable individuals who lack warm clothing. Many people, including the homeless and low-income families, struggle to stay warm during the cold months. Our Warm Clothing for Winter program aims to change that. With your support, we can provide warm clothing items like coats, scarves, and blankets to those in need. Your donation will bring comfort and hope to individuals facing the challenges of winter."
     },
     {
-      "pic": "https://img.freepik.com/free-photo/woman-carrying-drinking-waters-with-gloved-hands-during-coronavirus-pandemic_53876-105349.jpg?w=740&t=st=1695586023~exp=1695586623~hmac=8cf60f2ba20a8a85900dfec6313126ade43ea5098f52b3d076c33b14d4b6a4e4",
-      "title": "Safe Drinking Water Projects",
-      "category": "health",
-      "category_bg": "bg-blue-400",
-      "card_bg": "bg-blue-200",
-      "text_and_button_bg": "text-blue-900",
-      "description": "Support projects that bring clean drinking water to communities facing water scarcity. Your contribution can save lives and improve the health of countless individuals. Access to clean and safe drinking water is essential for good health, yet many communities around the world still face water scarcity and waterborne diseases. Our Safe Drinking Water Projects aim to change that. With your support, we can implement projects that provide clean drinking water to these communities, saving lives and improving overall health. Your contribution will have a lasting impact on the well-being of countless individuals."
-    },
-    {
       "pic": "https://img.freepik.com/free-photo/close-up-volunteer-food-box_23-2149182040.jpg?w=740&t=st=1695586539~exp=1695587139~hmac=dcc75271a13a1115cba7bda3b06c868489e31dfb95f21da963aa4af2bdc8f0d2",
       "title": "Emergency Food Relief",
       "category": "food",
@@ -54,14 +45,15 @@
       "description": "Respond to food emergencies by donating to our relief efforts. Your help can provide immediate assistance to those affected by crises and hunger. During times of crisis, such as natural disasters and pandemics, access to food becomes a pressing concern. Many people are left without access to food and face hunger. Our Emergency Food Relief program aims to respond swiftly to these crises. With your support, we can provide immediate assistance and food relief to those affected by emergencies. Your donation will make a difference in the lives of individuals facing hunger and crises."
     },
     {
-      "pic": "https://img.freepik.com/free-photo/arrangement-education-growth-concept_23-2148721288.jpg?w=826&t=st=1695586578~exp=1695587178~hmac=d2ecdfcebc5113139dfacff8aea50a560aa1a60c18e17bf876b6a53c24877e7b",
-      "title": "Scholarships for Higher Education",
-      "category": "education",
-      "category_bg": "bg-green-400",
-      "card_bg": "bg-green-200",
-      "text_and_button_bg": "text-green-900",
-      "description": "Enable deserving students to pursue higher education with scholarships. Your support can unlock their potential and change their lives forever. Higher education is often a pathway to success, but many deserving students face financial barriers. Our Scholarships for Higher Education program aims to change that. With your support, we can provide scholarships to talented and motivated students, enabling them to pursue higher education. Your donation will unlock their potential and change the trajectory of their lives, opening up new opportunities and possibilities."
-    },
+        "pic": "https://img.freepik.com/free-photo/woman-carrying-drinking-waters-with-gloved-hands-during-coronavirus-pandemic_53876-105349.jpg?w=740&t=st=1695586023~exp=1695586623~hmac=8cf60f2ba20a8a85900dfec6313126ade43ea5098f52b3d076c33b14d4b6a4e4",
+        "title": "Safe Drinking Water Projects",
+        "category": "health",
+        "category_bg": "bg-blue-400",
+        "card_bg": "bg-blue-200",
+        "text_and_button_bg": "text-blue-900",
+        "description": "Support projects that bring clean drinking water to communities facing water scarcity. Your contribution can save lives and improve the health of countless individuals. Access to clean and safe drinking water is essential for good health, yet many communities around the world still face water scarcity and waterborne diseases. Our Safe Drinking Water Projects aim to change that. With your support, we can implement projects that provide clean drinking water to these communities, saving lives and improving overall health. Your contribution will have a lasting impact on the well-being of countless individuals."
+      },
+    
     {
       "pic": "https://img.freepik.com/free-photo/african-american-girl_1303-5321.jpg?w=740&t=st=1695586650~exp=1695587250~hmac=7aaf8937b239e1baff38c87ef5a8e7cce4ad9335a3f530779e61a3767654d60d",
       "title": "Winter Coats for Kids",
@@ -72,6 +64,15 @@
       "description": "Donate winter coats to children in need and keep them warm during the cold season. Your kindness can bring joy and comfort to young hearts. Winter can be a challenging time for children in need, especially when they lack warm clothing. Many kids face the cold without proper winter coats, which can affect their health and well-being. Our Winter Coats for Kids program aims to change that. With your support, we can provide warm winter coats to children in need, ensuring they stay warm and comfortable during the cold season. Your donation will bring joy and comfort to young hearts and make a positive impact on their lives."
     },
     {
+        "pic": "https://img.freepik.com/free-photo/arrangement-education-growth-concept_23-2148721288.jpg?w=826&t=st=1695586578~exp=1695587178~hmac=d2ecdfcebc5113139dfacff8aea50a560aa1a60c18e17bf876b6a53c24877e7b",
+        "title": "Higher Education Scholarships",
+        "category": "education",
+        "category_bg": "bg-green-400",
+        "card_bg": "bg-green-200",
+        "text_and_button_bg": "text-green-900",
+        "description": "Enable deserving students to pursue higher education with scholarships. Your support can unlock their potential and change their lives forever. Higher education is often a pathway to success, but many deserving students face financial barriers. Our Scholarships for Higher Education program aims to change that. With your support, we can provide scholarships to talented and motivated students, enabling them to pursue higher education. Your donation will unlock their potential and change the trajectory of their lives, opening up new opportunities and possibilities."
+      },
+    {
       "pic": "https://img.freepik.com/free-photo/closeup-pediatrician-preparing-vaccine-child_637285-10527.jpg?w=740&t=st=1695586282~exp=1695586882~hmac=3c6b769f4fe47e168aede7ae37f9f318ea3b9fd79b9992b3b9f83889e849295d",
       "title": "Vaccination Clinics",
       "category": "health",
@@ -81,13 +82,14 @@
       "description": "Support vaccination clinics to protect vulnerable populations from preventable diseases. Your contribution can safeguard public health and save lives. Vaccination is a crucial aspect of public health, yet many vulnerable populations lack access to vaccination clinics. Our Vaccination Clinics program aims to change that. With your support, we can establish vaccination clinics in underserved communities, protecting them from preventable diseases. Your donation will help safeguard public health and save lives, especially those of children and the elderly who are most at risk."
     },
     {
-      "pic": "https://img.freepik.com/free-photo/woman-offering-food-neighbor_23-2149447164.jpg?w=740&t=st=1695586725~exp=1695587325~hmac=0d76620097f56a8d9db7a6ad6000d8d9c022b300a4317c551911f9839c121902",
-      "title": "Meals for Elderly Citizens",
-      "category_bg": "bg-red-400",
-      "card_bg": "bg-red-200",
-      "text_and_button_bg": "text-red-900",
-      "description": "Provide nutritious meals to elderly citizens who may be isolated or facing food insecurity. Your generosity can improve their quality of life and well-being. Many elderly citizens face isolation and food insecurity, impacting their quality of life. Our Meals for Elderly Citizens program aims to change that. With your support, we can provide nutritious meals to elderly individuals who may be isolated or facing food insecurity. Your donation will make a significant difference in their lives, improving their well-being and ensuring they have access to proper nutrition."
-    },
+        "pic": "https://img.freepik.com/premium-photo/clothes-donation-renewable-concept-box-use-old-cloth_34048-1723.jpg?w=826",
+        "title": "Blankets for the Homeless",
+        "category": "clothing",
+        "category_bg": "bg-fuchsia-400",
+        "card_bg": "bg-fuchsia-200",
+        "text_and_button_bg": "bg-fuchsia-900",
+        "description": "Provide warm blankets to homeless individuals during the cold nights. Your kindness can offer comfort and protection from the elements to those in need. Homeless individuals often face the harsh reality of sleeping on the streets during cold nights. Our Blankets for the Homeless program aims to change that. With your support, we can provide warm blankets to homeless individuals, offering them comfort and protection from the elements. Your donation will make a difference in the lives of those in need, ensuring they have a warmer and safer night's sleep."
+      },   
     {
       "pic": "https://img.freepik.com/premium-photo/asian-uniform-student-girl-using-computer-notebook-countryside-thailand_73622-109.jpg?w=740",
       "title": "Digital Learning Initiatives",
@@ -98,13 +100,14 @@
       "description": "Equip schools with digital learning resources to enhance education. Your donation can bridge the digital divide and empower students with modern tools. In today's digital age, access to technology and digital learning resources is essential for students' education. Our Digital Learning Initiatives program aims to bridge the digital divide in underserved schools. With your support, we can equip schools with the necessary technology and resources, empowering students with modern tools for learning. Your donation will enable these students to access a quality education and prepare them for the digital future."
     },
     {
-      "pic": "https://img.freepik.com/premium-photo/clothes-donation-renewable-concept-box-use-old-cloth_34048-1723.jpg?w=826",
-      "title": "Blankets for the Homeless",
-      "category": "clothing",
-      "category_bg": "bg-fuchsia-400",
-      "card_bg": "bg-fuchsia-200",
-      "text_and_button_bg": "bg-fuchsia-900",
-      "description": "Provide warm blankets to homeless individuals during the cold nights. Your kindness can offer comfort and protection from the elements to those in need. Homeless individuals often face the harsh reality of sleeping on the streets during cold nights. Our Blankets for the Homeless program aims to change that. With your support, we can provide warm blankets to homeless individuals, offering them comfort and protection from the elements. Your donation will make a difference in the lives of those in need, ensuring they have a warmer and safer night's sleep."
-    }
+        "pic": "https://img.freepik.com/free-photo/woman-offering-food-neighbor_23-2149447164.jpg?w=740&t=st=1695586725~exp=1695587325~hmac=0d76620097f56a8d9db7a6ad6000d8d9c022b300a4317c551911f9839c121902",
+        "title": "Meals for Elderly Citizens",
+        "category": "food",
+        "category_bg": "bg-red-400",
+        "card_bg": "bg-red-200",
+        "text_and_button_bg": "text-red-900",
+        "description": "Provide nutritious meals to elderly citizens who may be isolated or facing food insecurity. Your generosity can improve their quality of life and well-being. Many elderly citizens face isolation and food insecurity, impacting their quality of life. Our Meals for Elderly Citizens program aims to change that. With your support, we can provide nutritious meals to elderly individuals who may be isolated or facing food insecurity. Your donation will make a significant difference in their lives, improving their well-being and ensuring they have access to proper nutrition."
+      }
+    
   ]
   

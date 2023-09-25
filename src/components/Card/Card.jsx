@@ -1,17 +1,20 @@
 import React from 'react';
 
-const Card = () => {
+
+const Card = ({element}) => {
+    console.log(element)
+
     return (
-        <div className='bg-fuchsia-200 inline-block rounded-t-md rounded-b-md'>
+        <div className={`${element.card_bg} inline-block rounded-t-md rounded-b-md w-72 h-72 cursor-pointer`}>
             <div>
-                <img className='h-52 w-72 rounded-t-md' src="https://img.freepik.com/premium-photo/donation-box-with-winter-clothes-old-wooden-background_104376-1951.jpg?w=740" alt="" />
+                <img className='h-52 w-full rounded-t-md' src={element.pic} alt="" />
             </div>
             <div>
                 <div className='m-2'>
-                    <p className=' bg-fuchsia-400 text-fuchsia-900 inline font-semibold px-1 rounded-sm'>Health</p>
+                    <p className={`${element.category_bg} ${element.text_and_button_bg} inline text-sm font-semibold px-1 rounded-sm capitalize`}>{element.category}</p>
                 </div>
                 <div className='m-2'>
-                    <h3 className='text-xl font-semibold text-green-900 inline'>Clean Water</h3>
+                    <h3 className={`text-lg font-semibold ${element.text_and_button_bg} inline`}>{element.title}</h3>
                 </div>
             </div>
         </div>
