@@ -8,9 +8,9 @@ function App() {
 
   return (
     <div className=''>
-<Nav />
-<Outlet />
-        
+      <Nav />
+      <Outlet />
+
     </div>
   )
 }

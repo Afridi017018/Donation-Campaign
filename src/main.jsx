@@ -8,6 +8,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './pages/Home/Home.jsx';
+import Donate from './pages/Donate/Donate.jsx';
 
 
 const router = createBrowserRouter([
@@ -17,8 +18,13 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        loader: ()=> fetch('fakeData.json'),
+        loader: ()=> fetch('/fakeData.json'),
         element: <Home />,
+      },
+      {
+        path: "/donate/:id",
+        // loader: ()=> fetch('fakeData.json'),
+        element: <Donate />,
       },
 
     ],
