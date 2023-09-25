@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home/Home.jsx';
 import Donate from './pages/Donate/Donate.jsx';
+import Donation from './pages/Donation/Donation.jsx';
 
 
 const router = createBrowserRouter([
@@ -25,6 +26,11 @@ const router = createBrowserRouter([
         path: "/donate/:id",
         // loader: ()=> fetch('fakeData.json'),
         element: <Donate />,
+      },
+      {
+        path: "/donation",
+        loader: ()=> fetch('/fakeData.json'),
+        element: <Donation />,
       },
 
     ],

@@ -1,15 +1,18 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 
 
-const Card = ({element}) => {
+const Card = ({element, id}) => {
     // console.log(element)
+
+    const navigate = useNavigate();
 
 
     return (
         <>
         { element &&
-            <div className={`inline-block rounded-t-md rounded-b-md w-72 h-72 cursor-pointer`} style={{ backgroundColor: element.card_bg }} >
+            <div className={`inline-block rounded-t-md rounded-b-md w-72 h-72 cursor-pointer shadow-lg`} style={{ backgroundColor: element.card_bg }} onClick = {()=>navigate(`/donate/${id}`)} >
             <div>
                 <img className='h-52 w-full rounded-t-md' src={element.pic} alt="" />
             </div>
