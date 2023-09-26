@@ -1,5 +1,6 @@
 [
   {
+    "id": 0,
     "pic": "https://img.freepik.com/free-photo/woman-carrying-drinking-waters-with-gloved-hands-during-coronavirus-pandemic_53876-105349.jpg?w=740&t=st=1695586023~exp=1695586623~hmac=8cf60f2ba20a8a85900dfec6313126ade43ea5098f52b3d076c33b14d4b6a4e4",
     "title": "Safe Drinking Water Projects",
     "category": "health",
@@ -10,6 +11,7 @@
     "price": "320"
   },
   {
+    "id": 1,
     "pic": "https://img.freepik.com/free-photo/high-angle-charity-box-being-prepared-donation_23-2148613126.jpg?w=740&t=st=1695586358~exp=1695586958~hmac=d18c71bc20389cbc34a058aed5b9bc9254677ef90538d62dbc4081fc0a01d9c9",
     "title": "Nutritious Meals for Families",
     "category": "food",
@@ -20,6 +22,7 @@
     "price": "130"
   },
   {
+    "id": 2,
     "pic": "https://img.freepik.com/free-photo/putting-money-coins-saving-glass-bottle-concept-investment-mutual-fund-finance-business-placed-textbook-content-money-saving-education_1150-45711.jpg?w=740&t=st=1695586410~exp=1695587010~hmac=9d03ab5f7cc70449dda0f3ed5e25f7462dc33a8a368dc0f8c8f5f5dfeef6c8df",
     "title": "Quality Education for All",
     "category": "education",
@@ -30,6 +33,7 @@
     "price": "350"
   },
   {
+    "id": 3,
     "pic": "https://img.freepik.com/premium-photo/donation-box-with-winter-clothes-old-wooden-background_104376-1951.jpg?w=740",
     "title": "Warm Clothing for Winter",
     "category": "clothing",
@@ -40,6 +44,7 @@
     "price": "460"
   },
   {
+    "id": 4,
     "pic": "https://img.freepik.com/free-photo/close-up-volunteer-food-box_23-2149182040.jpg?w=740&t=st=1695586539~exp=1695587139~hmac=dcc75271a13a1115cba7bda3b06c868489e31dfb95f21da963aa4af2bdc8f0d2",
     "title": "Emergency Food Relief",
     "category": "food",
@@ -50,6 +55,7 @@
     "price": "170"
   },
   {
+    "id": 5,
     "pic": "https://img.freepik.com/premium-photo/save-nature_488220-61527.jpg?w=360",
     "title": "Clean Water for Children",
     "category": "health",
@@ -60,6 +66,7 @@
     "price": "380"
   },
   {
+    "id": 6,
     "pic": "https://img.freepik.com/free-photo/african-american-girl_1303-5321.jpg?w=740&t=st=1695586650~exp=1695587250~hmac=7aaf8937b239e1baff38c87ef5a8e7cce4ad9335a3f530779e61a3767654d60d",
     "title": "Winter Coats for Kids",
     "category": "clothing",
@@ -70,6 +77,7 @@
     "price": "450"
   },
   {
+    "id": 7,
     "pic": "https://img.freepik.com/free-photo/arrangement-education-growth-concept_23-2148721288.jpg?w=826&t=st=1695586578~exp=1695587178~hmac=d2ecdfcebc5113139dfacff8aea50a560aa1a60c18e17bf876b6a53c24877e7b",
     "title": "Higher Education Scholarships",
     "category": "education",
@@ -80,6 +88,7 @@
     "price": "290"
   },
   {
+    "id": 8,
     "pic": "https://img.freepik.com/free-photo/closeup-pediatrician-preparing-vaccine-child_637285-10527.jpg?w=740&t=st=1695586282~exp=1695586882~hmac=3c6b769f4fe47e168aede7ae37f9f318ea3b9fd79b9992b3b9f83889e849295d",
     "title": "Vaccination Clinics",
     "category": "health",
@@ -90,6 +99,7 @@
     "price": "320"
   },
   {
+    "id": 9,
     "pic": "https://img.freepik.com/premium-photo/clothes-donation-renewable-concept-box-use-old-cloth_34048-1723.jpg?w=826",
     "title": "Blankets for the Homeless",
     "category": "clothing",
@@ -101,6 +111,7 @@
     "price": "220"
   },
   {
+    "id": 10,
     "pic": "https://img.freepik.com/premium-photo/asian-uniform-student-girl-using-computer-notebook-countryside-thailand_73622-109.jpg?w=740",
     "title": "Digital Learning Initiatives",
     "category": "education",
@@ -111,6 +122,7 @@
     "price": "180"
   },
   {
+    "id": 11,
     "pic": "https://img.freepik.com/free-photo/woman-offering-food-neighbor_23-2149447164.jpg?w=740&t=st=1695586725~exp=1695587325~hmac=0d76620097f56a8d9db7a6ad6000d8d9c022b300a4317c551911f9839c121902",
     "title": "Meals for Elderly Citizens",
     "category": "food",

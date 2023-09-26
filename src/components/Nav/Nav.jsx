@@ -7,11 +7,11 @@ const Nav = () => {
     return (
         <div className='container mx-auto'>
             <div className="navbar bg-base-100 h-28">
-                <div className="navbar-start">
+                <div className="navbar-start z-20">
 
                     <NavLink to="/" ><img className="w-52" src="/Logo.png" alt="" /></NavLink>
                 </div>
-                <div className="navbar-end">
+                <div className="navbar-end z-20">
                     <ul className="gap-10 menu-horizontal hidden lg:flex font-medium">
                         <li><NavLink to="/" className={({ isActive, isPending }) =>
                             isPending ? "text-black" : isActive ? " text-red-500 underline font-semibold" : ""

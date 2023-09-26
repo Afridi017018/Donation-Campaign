@@ -15,8 +15,8 @@ const Banner = () => {
 
     return (
         <div className='h-[480px] flex items-center justify-center relative'>
-            <img className='absolute h-full w-full object-fill opacity-10' src="https://img.freepik.com/free-photo/people-meeting-community-center_23-2149155300.jpg?size=626&ext=jpg" alt="" />
-            <div className='z-10'>
+            <img className='absolute h-screen w-full object-fill opacity-10 bottom-16' src="https://img.freepik.com/free-photo/people-meeting-community-center_23-2149155300.jpg?size=626&ext=jpg" alt="" />
+            <div className='z-20'>
                 <div>
                     <h1 className='text-4xl font-bold text-center'>My Growth Is Fueled By Assisting Those In Need</h1>
                 </div>

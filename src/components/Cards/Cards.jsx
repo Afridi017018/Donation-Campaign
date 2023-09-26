@@ -20,10 +20,10 @@ const Cards = () => {
    
 
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center container mx-auto gap-y-6 my-20'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center container mx-auto gap-y-6 my-10'>
             {filter.length > 0 &&
                 filter.map((element, i) => (
-                    <Card key={i + 1} element={element} id={i} />
+                    <Card key={i + 1} element={element} id={element.id} />
                 ))
             }
         </div>

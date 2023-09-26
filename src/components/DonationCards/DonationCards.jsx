@@ -59,7 +59,7 @@ const DonationCards = () => {
             <div>
                 {
                     cartInfo.length === 0 &&
-                    <div className='h-[500px] w-full flex justify-center items-center text-gray-500 text-4xl font-bold'>
+                    <div className='h-[250px] w-full flex justify-center items-center text-gray-500 text-4xl font-bold'>
                         Empty List !
                     </div>
                 }
