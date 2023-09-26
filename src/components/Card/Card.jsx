@@ -4,7 +4,6 @@ import { useNavigate } from 'react-router-dom';
 
 
 const Card = ({element, id}) => {
-    // console.log(element)
 
     const navigate = useNavigate();
 

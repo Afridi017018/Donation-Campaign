@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {Link, Navigate, useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import Swal from 'sweetalert2'
 
 const Donate = () => {
@@ -27,12 +27,12 @@ const Donate = () => {
             'Donation successful!',
             '',
             'success'
-          ).then((result) => {
+        ).then((result) => {
 
             if (result.isConfirmed) {
-              navigate("/donation")
-            } 
-          })
+                navigate("/donation")
+            }
+        })
 
     }
 

@@ -1,16 +1,20 @@
 
+import { createContext, useState } from 'react';
 import { Outlet } from 'react-router-dom'
 import './App.css'
 import Nav from './components/Nav/Nav'
 
-function App() {
+export const SearchContext = createContext();
 
+function App() {
+  const [search, setSearch] = useState("");
 
   return (
-    <div className=''>
-      <Nav />
-      <Outlet />
-
+    <div>
+      <SearchContext.Provider value={{ search, setSearch }}>
+        <Nav />
+        <Outlet />
+      </SearchContext.Provider>
     </div>
   )
 }

@@ -13,6 +13,7 @@ import Donation from './pages/Donation/Donation.jsx';
 import Statistics from './pages/Statistics/Statistics.jsx';
 
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        loader: ()=> fetch('/fakeData.json'),
+        loader: () => fetch('/fakeData.json'),
         element: <Home />,
       },
       {
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/donation",
-        loader: ()=> fetch('/fakeData.json'),
+        loader: () => fetch('/fakeData.json'),
         element: <Donation />,
       },
       {
@@ -43,9 +44,16 @@ const router = createBrowserRouter([
   },
 ]);
 
+// const SearchContext = createContext();
+
+// const [search, setSearch] = useState("hi Iam jhumon");
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+
+    {/* <SearchContext.Provider value={{search, setSearch}}> */}
+      <RouterProvider router={router} />
+    {/* </SearchContext.Provider> */}
+
   </React.StrictMode>,
 )
