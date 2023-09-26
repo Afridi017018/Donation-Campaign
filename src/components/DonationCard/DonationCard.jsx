@@ -9,7 +9,7 @@ const DonationCard = ({ element, id }) => {
         <div className='rounded-lg shadow-xl' style={{ backgroundColor: element.card_bg }}>
             <div className='flex'>
                 <div>
-                    <img className='h-44 md:h-44 w-40 md:w-52 rounded-l-lg' src={element.pic} alt="" />
+                    <img className='h-48 w-40 md:w-52 rounded-l-lg' src={element.pic} alt="" />
                 </div>
 
                 <div className='flex flex-1 flex-col justify-center gap-2 pl-5'>
