@@ -4,15 +4,11 @@ import Banner from '../../components/Banner/Banner';
 
 
 const Home = () => {
-   
+
     return (
         <div>
-            {/* This is Home original page */}
-
-           <Banner />
-
-           <Cards />
-
+            <Banner />
+            <Cards />
         </div>
     );
 };

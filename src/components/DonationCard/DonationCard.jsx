@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const DonationCard = ({element, id}) => {
+const DonationCard = ({ element, id }) => {
 
     const navigate = useNavigate();
 
@@ -11,7 +11,7 @@ const DonationCard = ({element, id}) => {
                 <div>
                     <img className='h-44 w-52 rounded-l-lg' src={element.pic} alt="" />
                 </div>
-     
+
                 <div className='flex flex-col justify-center gap-2 pl-5'>
                     <div>
                         <p className={`inline text-sm font-semibold px-1 rounded-sm capitalize`} style={{ backgroundColor: element.category_bg, color: element.textBtnColor }} >{element.category}</p>
@@ -20,13 +20,13 @@ const DonationCard = ({element, id}) => {
                         <h3 className='text-xl font-semibold'>{element.title}</h3>
                     </div>
                     <div>
-                        <p className='text-sm font-semibold text-blue-800' style={{color: element.textBtnColor}} >$230</p>
+                        <p className='text-sm font-semibold text-blue-800' style={{ color: element.textBtnColor }} >$230</p>
                     </div>
                     <div>
-                        <button className='px-3 py-1 rounded text-white' style={{backgroundColor: element.textBtnColor}}onClick={()=>navigate(`/donate/${id}`)}>View Details</button>
+                        <button className='px-3 py-1 rounded text-white' style={{ backgroundColor: element.textBtnColor }} onClick={() => navigate(`/donate/${id}`)}>View Details</button>
                     </div>
                 </div>
-               
+
             </div>
         </div>
     );

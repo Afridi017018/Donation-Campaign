@@ -7,7 +7,7 @@ import { SearchContext } from '../../App';
 const Banner = () => {
 
     const [searchText, setSearchText] = useState("");
-    const { setSearch } = useContext(SearchContext)
+    const {setSearch } = useContext(SearchContext)
 
     const handleSearch = () => {
         setSearch(searchText);

@@ -11,20 +11,11 @@ const DonationCards = () => {
 
     const getDonateInfo = JSON.parse(localStorage.getItem("ids")) || [];
 
-    const cartInfo = getDonateInfo.map((e, i) => {
-        // allCards.find(obj => obj.id == i) !== undefined
+    const cartInfo = getDonateInfo.map((e) => {
         return allCards[e.id];
-
     })
 
-    // if(isSlice)
-    // {
 
-    // }
-
-    // const test = allCards.filter((_, index) => getDonateInfo.includes({id: index}))
-
-    // console.log(cartInfo)
 
     return (
         <>

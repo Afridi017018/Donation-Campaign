@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useLoaderData, useNavigate, useParams } from 'react-router-dom';
 import Swal from 'sweetalert2'
+
 
 const Donate = () => {
     const [cardDetails, setCardDetails] = useState({});
     const { id } = useParams();
 
     const navigate = useNavigate();
+    const data = useLoaderData();
 
     useEffect(() => {
-        fetch("/fakeData.json")
-            .then((res) => res.json())
-            .then((data) => setCardDetails(data[id]));
-    }, [id]);
+        setCardDetails(data[id]);
+    }, [id, data]);
 
     const handleDonate = () => {
 
@@ -39,7 +39,7 @@ const Donate = () => {
 
     return (
         <>
-            {cardDetails && (
+            {cardDetails ?
                 <div className='container px-5 lg:px-0 lg:mx-auto mb-20'>
                     <div className='h-[400px] lg:h-[550px] my-10 relative'>
                         <img className='h-full w-full rounded-md' src={cardDetails.pic} alt="" />
@@ -54,7 +54,13 @@ const Donate = () => {
                         <p className='my-5 text-sm text-gray-500'>{cardDetails.description}</p>
                     </div>
                 </div>
-            )}
+
+
+                :
+
+                navigate('/error')
+
+            }
         </>
     );
 };

@@ -1,8 +1,7 @@
-# React + Vite
+### **Feature Highlights**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- **Item Selection and Information:** Users can select donation items (e.g., health, food) and access detailed information about each item to make informed choices.
 
-Currently, two official plugins are available:
+- **Donation Statistics:** The website provides users with a total donation amount, helping them visualize the impact of their contributions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Personal Donation History:** Users can see what items they have donated to in the past, observing how their contributions have grown over time.
